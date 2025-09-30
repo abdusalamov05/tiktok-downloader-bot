@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "compose:build": "docker compose build",
+    "compose:up": "docker compose up",
+    "compose:down": "docker compose down"
   },
   "dependencies": {
     "axios": "^1.11.0",
